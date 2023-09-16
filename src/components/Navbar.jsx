@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${state.theme}`}>
       <Link to="/home" className="brand-link">
-        <span className="brand-initial">D</span>H Odonto
+        <span className="brand-initial">Clinica Odontogica</span>
       </Link>
       <ul className="nav-list">
         <li>
