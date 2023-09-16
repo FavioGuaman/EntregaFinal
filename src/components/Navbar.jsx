@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect } from "react";
 import { ContextGlobal } from "./utils/global.context";
-import { Link } from "react-router-dom"; // Importar Link desde react-router-dom
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
 const Navbar = () => {

@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-unused-vars */
-// Archivo: App.jsx
 
 import React, { useContext } from "react";
 import Navbar from "./Components/Navbar";

@@ -19,23 +19,23 @@ code {
   width: 100%;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-left: 39px; /* Agrega un poco de margen izquierdo */
+  margin-left: 39px; 
   }
 
 
 .favButton:hover {
-  background-color: #007bff; /* Cambia el color de fondo en hover */
+  background-color: #007bff; 
 }
 
 
 h1{
   text-align: center;
-  margin-top: 60px; /* Ajusta la cantidad de margen según sea necesario */
+  margin-top: 60px; 
 
 }
 
 h2{
-  margin-top: 60px; /* Ajusta la cantidad de margen según sea necesario */
+  margin-top: 60px; 
 
 }
 nav{

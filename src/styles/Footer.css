@@ -18,5 +18,5 @@ body, html {
     padding: 20px;
     text-align: center;
     width: 100%;
-    cursor: pointer; /* Añade esta línea */
+    cursor: pointer;
   }

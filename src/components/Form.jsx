@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Form.css"; // Asegúrate de importar el archivo CSS
+import "../styles/Form.css";
 
 const Form = () => {
   const [fullName, setFullName] = useState("");
@@ -10,16 +10,16 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validación de nombre completo y email
+    
     if (fullName.trim() === "" || fullName.length < 5 || !email.includes("@")) {
       setMessage("Por favor verifique su información nuevamente.");
-      setSubmitted(false); // Asegura que no se muestre el mensaje de éxito si hay un error
+      setSubmitted(false);
       return;
     }
 
-    // Enviar formulario (aquí puedes agregar tu lógica de envío)
 
-    // Mostrar mensaje de agradecimiento
+
+
     setMessage(`Gracias ${fullName}, te contactaremos cuanto antes vía email.`);
     setSubmitted(true);
   };

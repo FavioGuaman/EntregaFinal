@@ -2,8 +2,8 @@
 import React, { useContext } from "react";
 import { ContextGlobal } from "./utils/global.context";
 import Card from "./Card";
-import { Link } from "react-router-dom"; // Agrega la importación de Link
-import "../styles/CardList.css"; // Asegúrate de importar el archivo CSS
+import { Link } from "react-router-dom";
+import "../styles/CardList.css";
 
 const CardList = () => {
   const { state } = useContext(ContextGlobal);

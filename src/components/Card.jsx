@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
-import doctorImage from "/images/doctor.jpg"; // Importa la imagen
-import "../styles/CardList.css"; // Asegúrate de importar el archivo CSS
+import doctorImage from "/images/doctor.jpg";
+import "../styles/CardList.css";
 
 const Card = ({ id, name, username, link }) => {
   const handleAddToFavorites = () => {
@@ -12,13 +12,13 @@ const Card = ({ id, name, username, link }) => {
       const newFavorite = { id, name, username };
       favorites.push(newFavorite);
       localStorage.setItem("favorites", JSON.stringify(favorites));
-      /*alert("Dentista agregado a favoritos");*/
+
     } else {
       const updatedFavorites = favorites.filter(
         (favorite) => favorite.id !== id
       );
       localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
-      /*alert("Dentista eliminado de favoritos");*/
+
     }
   };
 
